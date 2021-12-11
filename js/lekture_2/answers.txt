@@ -1,0 +1,12 @@
+1a = undefined;
+2b = 2;
+3c = error;
+4a = 3;
+5b = 4;
+6c = 5;
+7a = undefind;
+8b = 4;
+9c = 5;
+10a = undefind;
+11b = 4;
+12c = undefind;
