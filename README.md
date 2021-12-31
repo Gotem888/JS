@@ -3,9 +3,9 @@ a-level-frontend
 
 # Contents
 
-- [What is JavaScript](#what-is-javascript)
-- [JS Basics](#js-basics)
-- [Data Types](#data-types)
+- [**Lecture_1** What is JavaScript](#what-is-javascript)
+- [**Lecture_2** JS Basics](#js-basics)
+- [**Lecture_3** Data Types](#data-types)
 
 ### What is JavaScript
 
