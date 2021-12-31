@@ -1,14 +1,13 @@
 # a-level-frontend
 
 # Contents
-    - [What is JavaScript](#lecture_1)
-    - [JS Basics](#lecture_2)
-    - [Data Types](#lecture_3)
+    - [What is JavaScript](#what-is-javascript)
+    - [JS Basics](#js-basics)
+    - [Data Types](#data-types)
 
 
 
 
-<div id="lecture_1"></div>
 ### What is JavaScript
     - JS was founded in 1995, author Brendan Eich
     - Where could use: 
@@ -27,7 +26,6 @@
         - handle user events
         - “talk” with server
 
-<div id="lecture_2"></div>
 ### JS Basics
     - Computers understand only machine code (0 and 1).
     - Compiler is a computer program that translates code.
@@ -36,7 +34,6 @@
         - let
         - const
 
-<div id="lecture_3"></div>
 ### Data Types
     - *primitives:*
         - **string** - we can store 0 and more characters.
