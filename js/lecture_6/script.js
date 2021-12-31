@@ -8,6 +8,7 @@ function getMinValue(value1, value2, ...value_n){
 }
 getMinValue(2, 1, 3, -6, -11, 100, 892)
 
+
 /**
  * Task2
  * Create a function which join objects
@@ -21,3 +22,15 @@ let obj1 = {name: 'Joe'};
 let obj2 = {age: 25};
 
 joinObjects(obj1, obj2)
+
+
+/**
+ * Task3
+ * Create an object with two hidden methods
+ */
+
+const user ={
+    name: 'Jack',
+    age:18
+};
+
