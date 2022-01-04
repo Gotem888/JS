@@ -34,3 +34,8 @@ const user ={
     age:18
 };
 
+Object.defineProperty(user, 'name', {enumerable: false});
+let car = Object.values(user);
+
+console.log('My name is ' + user.name + ', I am ' +  car);
+console.log(car * 10);
