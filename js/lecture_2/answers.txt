@@ -9,4 +9,4 @@
 9c = 5;
 10a = undefind;
 11b = 4;
-12c = undefind;
+12c = error - нет 'c' переменной;
