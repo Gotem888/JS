@@ -1,4 +1,3 @@
-
 /**
  * Task 1. Days of the week
  */
