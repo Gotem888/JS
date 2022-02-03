@@ -7,11 +7,10 @@
     en: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',  'Saturday', 'Sunday']
 }
 
-const getNameOfDay = (day, lang) => {
+const getNameOfDay = (day, lang = 'en') => {
     let dayNum = day-1;
     let result;
-    if (lang == 'ru')result = namesOfDays.ru[dayNum];
-    else result = namesOfDays.en[dayNum];
+    result = namesOfDays[lang][dayNum];
     console.log(result);
 }
 
@@ -59,6 +58,23 @@ for(let i=0;i<countriesList.length;i++){
    console.log(countriesData)
 }
 
+// possible option
+/*
+const countriesData = {};
+
+for (const key in citiesAndCountries) {
+  // check if property is in the object
+  if (!countriesData[citiesAndCountries[key]]) {
+    // if not
+    // set a new array with initial value
+    countriesData[citiesAndCountries[key]] = [key];
+  } else {
+    // add new value to existing property
+    countriesData[citiesAndCountries[key]].push(key);
+  }
+}
+*/
+
 
 /**
  * Task 3. Calculate Sum Of Minimal Numbers
@@ -84,3 +100,18 @@ for(let i=0;i<countriesList.length;i++){
  
  };
  calcSumOfMinNumbers([123,-543,34568,123214,1,678,0.5,1.3]);
+
+ // possible option
+/*
+const calcSumOfMinNumbers = (arr) => {
+  const minValue1 = Math.min(...arr);
+
+  const minValue1Index = arr.indexOf(minValue1);
+
+  arr.splice(minValue1Index, 1);
+
+  const minValue2 = Math.min(...arr);
+
+  console.log(minValue1 + minValue2);
+};
+*/
