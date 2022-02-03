@@ -31,10 +31,11 @@ const DATA = [
     }
   ];
 
-const aEnt = document.getElementById('aLog');
-const wrappEl = document.getElementById('wrap');
+const aEnt = document.getElementById('aLog'); // please name variables with meaningful names
+const wrappEl = document.getElementById('wrap'); // please name variables with meaningful names
 
 aEnt.addEventListener('click', (e) =>{
+    // better to change visual styles of the elements based on class names not 'style' itself 
     aEnt.style.backgroundColor = 'white';
     setTimeout(() => aEnt.style.display = "none", 2000);
     setTimeout(() => wrappEl.style.display = "flex", 2000);
