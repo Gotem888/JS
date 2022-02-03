@@ -11,9 +11,8 @@ findVowelsCount('My reeeealy long test string about itself');
  * Task 2
  */
 
-const createArraysWithObjects = (name1, name2, ...name_n) =>{
-    const namelist = [name1, name2, ...name_n];
-    const result = namelist.map((element,index) =>({name: element, id: index+1}));
+const createArraysWithObjects = (...names) =>{
+    const result = names.map((element,index) =>({name: element, id: index+1}));
     console.log(result);
 }
 
@@ -26,7 +25,7 @@ createArraysWithObjects('Slava', 'Alex', 'Vlad', 'Zina', 'Olga');
 
 
 const filterArray = (someNumArr, conditNumber) =>{
-    let result = someNumArr.filter((element,index) => element > conditNumber);
+    let result = someNumArr.filter((element) => element > conditNumber);
     console.log(result);
 }
 
